@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+
+body {
+    background: rebeccapurple;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
