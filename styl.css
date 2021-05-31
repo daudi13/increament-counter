@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
 body {
     background: rebeccapurple;
     height: 100vh;
@@ -12,6 +18,34 @@ body {
     display: flex;
     height: 100%;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.social {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.social i {
+    font-size: 47px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.social .figure {
+    font-size: 65px;
+    color: #fff;
+}
+
+
+.social p {
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+}
+@media(max-width: 556px ) {
+    .container {
+        flex-direction: column;
+    }
 }
